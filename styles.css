@@ -1,16 +1,16 @@
 :root { --ink:var(--text-default-grey, #161616); --blue:var(--text-action-high-blue-france, #000091); --pale:var(--background-contrast-blue-france, #ececfe); --line:var(--border-default-grey, #ddd); }
 html { scroll-behavior:smooth; }
-body { color:var(--ink); background:#fff; }
+body { color:var(--ink); background:var(--background-default-grey, #fff); }
 .fr-header__body-row { min-height:8rem; }
 .fr-header__tools { align-self:center; }
-.issue-head { padding:4.5rem 0 2.5rem; background:linear-gradient(115deg,#ececfe 0%,#fff 62%); border-bottom:1px solid #e3e3fd; }
-.eyebrow,.meta { color:#666; font-size:.78rem; font-weight:700; letter-spacing:.06em; }
+.issue-head { padding:4.5rem 0 2.5rem; background:linear-gradient(115deg,var(--background-contrast-blue-france, #ececfe) 0%,var(--background-default-grey, #fff) 62%); border-bottom:1px solid var(--border-action-low-blue-france, #e3e3fd); }
+.eyebrow,.meta { color:var(--text-mention-grey, #666); font-size:.78rem; font-weight:700; letter-spacing:.06em; }
 .issue-head h1 { max-width:800px; margin:.5rem 0 1rem; color:var(--blue); font-size:clamp(2.4rem,6vw,4.5rem); line-height:1.02; }
 .lead { max-width:780px; font-size:1.25rem; line-height:1.55; }
-.topic-nav { display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; margin-top:2rem; padding-top:1.25rem; border-top:1px solid #c9c9f2; }
+.topic-nav { display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; margin-top:2rem; padding-top:1.25rem; border-top:1px solid var(--border-action-low-blue-france, #c9c9f2); }
 .topic-nav a { font-weight:600; }
 .section-block { padding-top:4rem; padding-bottom:4rem; }
-.section-muted { background:#f6f6f6; }
+.section-muted { background:var(--background-alt-grey, #f6f6f6); }
 .section-title { display:grid; grid-template-columns:3rem 1fr; gap:1rem; align-items:start; margin-bottom:2rem; }
 .section-title h2 { margin:0 0 .5rem; color:var(--blue); }
 .section-title p { margin:0; }
@@ -19,19 +19,19 @@ body { color:var(--ink); background:#fff; }
 .top-card, .article-list article, .article-body { min-width:0; }
 .top-card { min-height:28rem; border-top:5px solid var(--blue); overflow-wrap:anywhere; }
 .fr-card__end .fr-link { align-self:flex-start; }
-.impact { order:3; margin-top:1.5rem; padding-top:1rem; border-top:1px solid #ddd; }
-.article-list { border-top:1px solid #bbb; }
-.article-list article { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,10rem); gap:2rem; align-items:start; padding:2.25rem 0; border-bottom:1px solid #ccc; }
+.impact { order:3; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-default-grey, #ddd); }
+.article-list { border-top:1px solid var(--border-default-grey, #bbb); }
+.article-list article { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,10rem); gap:2rem; align-items:start; padding:2.25rem 0; border-bottom:1px solid var(--border-default-grey, #ccc); }
 .article-list h3 { margin:.25rem 0 .5rem; font-size:1.25rem; }
 .article-list p { max-width:850px; }
 .article-body > p:last-child { margin-bottom:0; }
-.takeaway { margin-top:1rem; padding:1rem 1.25rem; background:#fff; border-left:4px solid var(--blue); }
-.section-muted .takeaway { background:#ececfe; }
-.snum { color:#3a3a3a; }
+.takeaway { margin-top:1rem; padding:1rem 1.25rem; background:var(--background-raised-grey, #fff); border-left:4px solid var(--blue); }
+.section-muted .takeaway { background:var(--background-contrast-blue-france, #ececfe); }
+.snum { color:var(--text-default-grey, #3a3a3a); }
 .source-btn { white-space:nowrap; justify-self:end; }
-.watch { margin-top:3rem; padding:1.75rem 2rem; background:#ececfe; border-left:6px solid var(--blue); }
+.watch { margin-top:3rem; padding:1.75rem 2rem; background:var(--background-contrast-blue-france, #ececfe); border-left:6px solid var(--blue); }
 .watch h2 { margin-top:0; }
-.external-note { margin-top:2rem; color:#666; font-size:.9rem; }
+.external-note { margin-top:2rem; color:var(--text-mention-grey, #666); font-size:.9rem; }
 @media (max-width:48rem) {
   .fr-header__tools { display:none; }
   .issue-head { padding:3rem 0 2rem; }
