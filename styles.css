@@ -15,7 +15,7 @@ body { color:var(--ink); background:#fff; }
 .section-title h2 { margin:0 0 .35rem; color:var(--blue); }
 .section-title p { margin:0; }
 .section-number { font-size:1rem; font-weight:700; color:var(--blue); border-top:3px solid var(--blue); padding-top:.5rem; }
-.top-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap:1.5rem; }
+.top-grid { row-gap:1.5rem; }
 .top-card, .article-list article, .article-body { min-width:0; }
 .top-card, .article-body { overflow-wrap:anywhere; }
 .top-card { display:flex; min-height:28rem; flex-direction:column; padding:1.75rem; background:#fff; border-top:5px solid var(--blue); box-shadow:0 2px 8px rgba(0,0,18,.12); }
@@ -38,7 +38,6 @@ body { color:var(--ink); background:#fff; }
 @media (max-width:48rem) {
   .fr-header__tools { display:none; }
   .issue-head { padding:3rem 0 2rem; }
-  .top-grid { grid-template-columns:1fr; }
   .top-card { min-height:auto; }
   .article-list article { grid-template-columns:1fr; gap:1rem; }
   .source-btn { justify-self:start; }
