@@ -18,8 +18,7 @@ body { color:var(--ink); background:#fff; }
 .top-grid { row-gap:1.5rem; }
 .top-card, .article-list article, .article-body { min-width:0; }
 .top-card { min-height:28rem; border-top:5px solid var(--blue); overflow-wrap:anywhere; }
-.loic-source-link[target="_blank"]::after { content:none; }
-.fr-card__end .loic-source-link { align-self:flex-start; }
+.fr-card__end .fr-link { align-self:flex-start; }
 .impact { order:3; margin-top:1.5rem; padding-top:1rem; border-top:1px solid #ddd; }
 .article-list { border-top:1px solid #bbb; }
 .article-list article { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,10rem); gap:2rem; align-items:start; padding:2.25rem 0; border-bottom:1px solid #ccc; }
