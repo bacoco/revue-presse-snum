@@ -1,4 +1,4 @@
-:root { --ink:#161616; --blue:#000091; --pale:#f5f5fe; --line:#ddd; }
+:root { --ink:var(--text-default-grey, #161616); --blue:var(--text-action-high-blue-france, #000091); --pale:var(--background-contrast-blue-france, #ececfe); --line:var(--border-default-grey, #ddd); }
 html { scroll-behavior:smooth; }
 body { color:var(--ink); background:#fff; }
 .fr-header__body-row { min-height:8rem; }
@@ -41,3 +41,9 @@ body { color:var(--ink); background:#fff; }
   .article-list article { grid-template-columns:1fr; gap:1rem; }
   .source-btn { justify-self:start; }
 }
+
+/* Accessibilité : le focus ne doit jamais être masqué par les styles éditoriaux. */
+:focus-visible { outline: 2px solid var(--border-plain-blue-france, #000091); outline-offset: 2px; }
+.fr-skiplinks { position: relative; z-index: 1000; }
+.legal-page { max-width: 52rem; }
+.legal-page h2 { margin-top: 2.5rem; }
