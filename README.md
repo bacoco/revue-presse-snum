@@ -71,3 +71,17 @@ Le site est statique : aucun build n’est nécessaire. Ouvrir `index.html` dans
 - aucun contenu inventé à partir d’un titre ou d’un extrait incomplet ;
 - signalement des contenus payants ou inaccessibles ;
 - aucune publication d’une ressource interne sans autorisation explicite.
+
+
+## Exigences DSFR et RGAA
+
+La conformité au DSFR et l’accessibilité RGAA sont des critères bloquants de publication.
+
+- les gabarits utilisent les composants et classes du DSFR ; les personnalisations CSS restent limitées et ne doivent pas neutraliser le focus, les contrastes ou le redimensionnement ;
+- chaque page propose des accès rapides, une structure de titres cohérente, des intitulés de liens explicites et une indication textuelle des ouvertures dans une nouvelle fenêtre ;
+- la page `/accessibilite/`, le schéma pluriannuel, le plan d’actions et le plan du site sont maintenus avec chaque évolution ;
+- les contrôles automatiques ne remplacent jamais l’audit manuel RGAA ;
+- tant qu’aucun audit complet et valide n’établit que tous les critères applicables sont respectés, le site affiche obligatoirement « Accessibilité : non conforme » ;
+- aucune édition ne doit être publiée ni envoyée si une régression d’accessibilité est identifiée.
+
+Référentiel applicable au démarrage du projet : RGAA 4.1.2. Le passage à une nouvelle version du référentiel doit être planifié dès sa publication officielle.
