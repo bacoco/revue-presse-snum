@@ -85,3 +85,7 @@ La conformité au DSFR et l’accessibilité RGAA sont des critères bloquants d
 - aucune édition ne doit être publiée ni envoyée si une régression d’accessibilité est identifiée.
 
 Référentiel applicable au démarrage du projet : RGAA 4.1.2. Le passage à une nouvelle version du référentiel doit être planifié dès sa publication officielle.
+
+- les tags éditoriaux non interactifs utilisent la structure DSFR `p.fr-tag` ;
+- les mises en page en colonnes utilisent `fr-grid-row` et les classes `fr-col-*` ;
+- les ressources CSS et JavaScript DSFR restent épinglées sur la même version validée.
