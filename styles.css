@@ -42,7 +42,6 @@ body { color:var(--ink); background:var(--background-default-grey, #fff); }
 
 /* Accessibilité : le focus ne doit jamais être masqué par les styles éditoriaux. */
 :focus-visible { outline: 2px solid var(--border-plain-blue-france, #000091); outline-offset: 2px; }
-.fr-skiplinks { position: relative; z-index: 1000; }
 .legal-page { max-width: 52rem; }
 .legal-page h2 { margin-top: 2.5rem; }
 
