@@ -11,10 +11,10 @@ body { color:var(--ink); background:#fff; }
 .topic-nav a { font-weight:600; }
 .section-block { padding-top:4rem; padding-bottom:4rem; }
 .section-muted { background:#f6f6f6; }
-.section-title { display:grid; grid-template-columns:3rem 1fr; gap:1rem; align-items:start; margin-bottom:2rem; }
+.section-title { display:grid; grid-template-columns:4rem 1fr; gap:1rem; align-items:start; margin-bottom:2rem; }
 .section-title h2 { margin:0 0 .5rem; color:var(--blue); }
 .section-title p { margin:0; }
-.section-number { font-size:1rem; font-weight:700; color:var(--blue); border-top:3px solid var(--blue); padding-top:.5rem; }
+.section-number { font-size:2rem; line-height:2.5rem; font-weight:700; color:var(--blue); border-top:3px solid var(--blue); padding-top:.5rem; }
 .top-grid { row-gap:1.5rem; }
 .top-card, .article-list article, .article-body { min-width:0; }
 .top-card { min-height:28rem; border-top:5px solid var(--blue); overflow-wrap:anywhere; }
