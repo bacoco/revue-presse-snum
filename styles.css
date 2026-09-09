@@ -7,7 +7,7 @@ body { color:var(--ink); background:var(--background-default-grey, #fff); }
 .eyebrow,.meta { color:var(--text-mention-grey, #666); font-size:.78rem; font-weight:700; letter-spacing:.06em; }
 .issue-head h1 { max-width:800px; margin:.5rem 0 1rem; color:var(--blue); font-size:clamp(2.4rem,6vw,4.5rem); line-height:1.02; }
 .lead { max-width:780px; font-size:1.25rem; line-height:1.55; }
-.topic-nav { display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; margin-top:2rem; padding-top:1.25rem; border-top:1px solid var(--border-action-low-blue-france, #c9c9f2); }
+.topic-nav { display:flex; flex-wrap:wrap; gap:.5rem 1.5rem; margin-top:2rem; padding-top:1.25rem; }
 .topic-nav a { font-weight:600; }
 .section-block { padding-top:4rem; padding-bottom:4rem; }
 .section-muted { background:var(--background-alt-grey, #f6f6f6); }
