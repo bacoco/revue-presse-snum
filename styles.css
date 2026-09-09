@@ -40,6 +40,20 @@ body { color:var(--ink); background:var(--background-default-grey, #fff); }
   .source-btn { justify-self:start; }
 }
 
+/* Accessibilité : la vue mobile évite les colonnes trop étroites sans masquer de données. */
+.actions-mobile { display:none; }
+@media (max-width:30rem) {
+  .legal-page .fr-table { display:none; }
+  .legal-page .actions-mobile { display:block; }
+  .actions-mobile__list { list-style:none; margin:1rem 0 2rem; padding-left:0; }
+  .actions-mobile__item { border-top:1px solid var(--border-default-grey, #ddd); padding:1rem 0; }
+  .actions-mobile__item:last-child { border-bottom:1px solid var(--border-default-grey, #ddd); }
+  .actions-mobile__item dl { margin:0; }
+  .actions-mobile__item dt { margin-top:1rem; font-weight:700; }
+  .actions-mobile__item dt:first-child { margin-top:0; }
+  .actions-mobile__item dd { margin-left:0; margin-bottom:0; }
+}
+
 /* Accessibilité : le focus ne doit jamais être masqué par les styles éditoriaux. */
 :focus-visible { outline: 2px solid var(--border-plain-blue-france, #000091); outline-offset: 2px; }
 .legal-page { max-width: 52rem; }
