@@ -65,7 +65,7 @@ Le site est statique : aucun build n’est nécessaire. Ouvrir `index.html` dans
 ## Règles éditoriales
 
 - 10 à 15 sujets par édition ;
-- résum factuel de 100 à 160 mots par article ;
+- résumé factuel de 100 à 160 mots par article ;
 - lien canonique et date vérifiés ;
 - distinction claire entre faits, analyse et intérêt pour le SNUM ;
 - aucun contenu inventé à partir d’un titre ou d’un extrait incomplet ;
