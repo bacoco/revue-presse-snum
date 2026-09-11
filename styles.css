@@ -18,6 +18,13 @@ body { color:var(--ink); background:var(--background-default-grey, #fff); }
 .top-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap:1.5rem; }
 .top-grid > .fr-col-12.fr-col-md-4 { width:auto !important; max-width:none !important; min-width:0; flex:none !important; overflow-wrap:anywhere; word-break:break-word; }
 .top-card, .article-list article, .article-body { min-width:0; }
+.top-card .fr-card__start { order:1; }
+.top-card .meta { order:2; }
+.top-card .fr-card__title { order:3; }
+.top-card .fr-card__desc { order:4; }
+.top-card .takeaway { order:5; }
+.top-card .impact { order:6; }
+.top-card .fr-card__end { order:7; }
 .top-card { min-height:28rem; border-top:5px solid var(--blue); overflow-wrap:anywhere; }
 .fr-card__end .fr-link { align-self:flex-start; }
 .impact { order:3; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-default-grey, #ddd); }
