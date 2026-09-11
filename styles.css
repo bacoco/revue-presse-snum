@@ -16,7 +16,7 @@ body { color:var(--ink); background:var(--background-default-grey, #fff); }
 .section-title p { margin:0; }
 .section-number { min-width:3rem; white-space:nowrap; font-size:1.5rem; line-height:2rem; font-weight:700; color:var(--blue); border-top:3px solid var(--blue); padding-top:.5rem; }
 .top-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap:1.5rem; }
-.top-grid > * { min-width:0; overflow-wrap:anywhere; }
+.top-grid > * { width:auto; max-width:none; min-width:0; flex:none; overflow-wrap:anywhere; word-break:break-word; }
 .top-card, .article-list article, .article-body { min-width:0; }
 .top-card { min-height:28rem; border-top:5px solid var(--blue); overflow-wrap:anywhere; }
 .fr-card__end .fr-link { align-self:flex-start; }
